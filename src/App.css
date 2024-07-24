@@ -1,0 +1,267 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    width: 50px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+
+    /* box-shadow: 0px 2px 10px rgba(0,0,0,0.2); */
+}
+#menu{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#menu li{
+        list-style: none;
+}
+#menu li a{
+      padding: 0 1px;
+      margin-left: 40px;
+    text-decoration: none;
+}
+#menu li a:hover{
+   color: cadetblue;
+}
+.w-btn{
+    border: 1px solid orange;
+    border-radius: 55px;
+    padding: 9px 30px;
+    margin-left: 40px;
+}
+#menu .w-btn:hover{
+    background-color: orange;
+}
+#obj{
+    width: 1200px;
+    margin: 0 auto;
+}
+.hero-img img{
+    width: 100%;
+    height: 90vh;
+}   
+.content{
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+.content h1{
+    font-size: 40px;
+    font-weight: 700;   
+}
+.content p{
+    font-size: 15px;
+    padding: 5px 0;
+    
+}
+.content .button-w{
+    padding: 9px 30px;
+    border-radius: 30px;
+    border: 1px solid orange;
+
+}
+.content .button-w:hover{
+    background-color: orange;
+}
+.card-heading h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.card-w{
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    border: 20px solid white;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.8);
+    margin-top: 50px;
+}
+
+.card img{
+    width: 250px;
+    height: 150px;
+}
+.star i{
+     color:orange;
+     font-size: 24px;
+     padding: 0 2px;
+     margin-top: 10px;
+}
+.card h1{
+    margin-top: 7px;
+}
+.w-btm{
+    border: 1px solid orange;
+    border-radius: 55px;
+    padding: 5px 20px;
+    margin-left:20px;
+}
+.w-btm:hover{
+    background-color: orange;
+}
+.dollar-w h3{
+    margin-left: 50px;
+}
+
+.dollar-w{
+    display: flex;
+    margin-top: 20px;
+}
+.flex{
+    display: flex;
+    width: px;
+}
+
+.card h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.mid-w{
+    display: flex;
+    
+}
+.text1{
+    width: 600px;
+    padding: 6px;
+    height: 80px;
+    margin-top: 7%;
+
+}
+.text1 p{
+    font-size: 16px;
+
+    color: gray;
+
+    
+    font-weight: 500;
+}
+.imgtext img{
+    width: 500px;
+    height: 400px;
+}
+.w-btn1{
+    border: 1px solid orange;
+    background: white;
+    color: black    ;
+    border-radius: 55px;
+    padding: 5px 20px;
+    margin-top: 40px;
+}
+.w-btn1:hover{
+    background-color: orange;
+}
+
+.pre-flex{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.img-t img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+
+.review{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    background-color:white;
+    border: 20px solid white;
+    border-radius: 13px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.8);
+}
+.review-con{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    
+}
+.flex-w{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+    
+    /* gap: 50px; */
+}
+
+.flex-f h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+.review p{
+    
+}
+.review-img img{
+    width: 40px;
+    border-radius: 50%;
+    
+
+}
+.footer{
+    background-color:black;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-top: 100px;
+    width: 100%;
+    height: 250px;
+    
+}
+.flex-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.flex-footer{
+    color: white;
+}
+.flex-footer li a{
+    color: white;
+
+}
+.flex-footer p{
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+.flex-footer li{
+    list-style: none;
+}
+.flex-footer li a{
+    text-decoration: none;
+    padding: 5px 0;
+    font-size: 14px;
+}
+.flex-footer li a:hover{
+    color: orange;
+
+}
+.flex-footer    p:hover{
+    color:orange
+}
