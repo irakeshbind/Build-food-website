@@ -11,6 +11,7 @@ function Navbar() {
             <li><a href="">Dishes</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Menu</a></li>
+            <li><a href="">Contact</a></li>
             
             
             <button className="w-btn">login</button>
